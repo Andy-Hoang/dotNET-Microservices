@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\Andy.Hoang\\Area9ReferenceCode\\Tutorial\\dotNET Microservices\\PlatformService\\obj\\Debug\\net6.0\\project.razor.json",
-  "FilePath": "c:\\Users\\Andy.Hoang\\Area9ReferenceCode\\Tutorial\\dotNET Microservices\\PlatformService\\PlatformService.csproj",
+  "SerializedFilePath": "c:\\Users\\Andy.Hoang\\Area9ReferenceCode\\Tutorial\\dotNET Microservices\\CommandsService\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "c:\\Users\\Andy.Hoang\\Area9ReferenceCode\\Tutorial\\dotNET Microservices\\CommandsService\\CommandsService.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -18371,7 +18371,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "PlatformService",
+  "RootNamespace": "CommandsService",
   "Documents": [],
   "SerializationFormat": "0.3"
 }
