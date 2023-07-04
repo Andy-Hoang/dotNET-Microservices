@@ -1,0 +1,56 @@
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using PlatformService.Data;
+using PlatformService.Dtos;
+using PlatformService.Models;
+
+namespace PlatformService.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class PlatformsController : ControllerBase
+    {
+        private readonly IPlatformRepo _repo;
+        private readonly IMapper _mapper;
+
+        public PlatformsController(IPlatformRepo repo, IMapper mapper)
+        {
+            _repo = repo;
+            _mapper = mapper;
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<PlatformReadDto>> GetPlatforms()
+        {
+            Console.WriteLine("--> Getting Platforms...");
+            var platformItem = _repo.GetAllPlatforms();         //use repo implementation
+            return Ok(_mapper.Map<IEnumerable<PlatformReadDto>>(platformItem));     //use mapper defined in 'Profiles': CreateMap<Platform, PlatformReadDto>();
+        }
+
+        [HttpGet("{id}", Name = "GetPlatformById")]
+        public ActionResult<PlatformReadDto> GetPlatformById(int id)
+        {
+            var platformItem = _repo.GetPlatformById(id);
+            if(platformItem != null)
+            {
+                return Ok(_mapper.Map<PlatformReadDto>(platformItem));
+            }
+            return NotFound();
+        }
+
+        [HttpPost]
+        // why input param is of type PlatformCreateDto: because the input will not have ID (created internally by DB) 
+        // best practice to Post request: return 201 and object created with link
+        public ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreateDto)
+        {
+            var platformModel = _mapper.Map<Platform>(platformCreateDto);
+            _repo.CreatePlatform(platformModel);
+            _repo.SaveChanges();
+
+            var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+            //GetPlatformById: the name of url resouce of get with id
+            return CreatedAtRoute(nameof(GetPlatformById), new{Id=platformReadDto.Id}, platformReadDto);
+        }
+
+    }
+}
