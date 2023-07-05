@@ -64,3 +64,4 @@ C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformSer
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\obj\Debug\net6.0\PlatformService.pdb
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\obj\Debug\net6.0\PlatformService.genruntimeconfig.cache
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\obj\Debug\net6.0\ref\PlatformService.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\appsettings.Production.json
