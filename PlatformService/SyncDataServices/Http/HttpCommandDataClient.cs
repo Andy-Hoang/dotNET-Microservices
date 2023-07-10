@@ -21,7 +21,7 @@ namespace PlatformService.SyncDataServices.Http
                 Encoding.UTF8,
                 "application/json"
             );
-            var response = await _httpClient.PostAsync(_configuration["CommandService"], httpContent);      //"CommandService" defined in appsettings.Development.json
+            var response = await _httpClient.PostAsync(_configuration["CommandService"], httpContent);      //"CommandService" defined in appsettings.json
 
             //although async-await: this just apply internally inside Platformservice, meaning it will release thread to thread pool
             // externally (bwt service-service): it still Sync request: waiting for a response...
