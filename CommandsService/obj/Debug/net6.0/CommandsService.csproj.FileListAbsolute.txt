@@ -39,3 +39,7 @@ C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsSer
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\CommandsService\bin\Debug\net6.0\Grpc.Net.Common.dll

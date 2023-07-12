@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "MRC/vHX82pT+abObu+i/+U9E0znUVwck/meH+iYHi9LvUFGioEEqyBkpmLT8ZGxzpsy0Y3qCkFoPuFVuNp+m2A==",
+  "dgSpecHash": "CvjyzhHw/1miqCFDAOVIVzWg20eYnq5GUHqR6Zhi1i6OhVu+0XNxpP6nBNRfztHwkPWuI+hvKkf0EHzSkibIpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andy.Hoang\\Area9ReferenceCode\\Tutorial\\dotNET Microservices\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andy.Hoang\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Andy.Hoang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Andy.Hoang\\.nuget\\packages\\google.protobuf\\3.23.4\\google.protobuf.3.23.4.nupkg.sha512",
+    "C:\\Users\\Andy.Hoang\\.nuget\\packages\\grpc.core.api\\2.55.0\\grpc.core.api.2.55.0.nupkg.sha512",
+    "C:\\Users\\Andy.Hoang\\.nuget\\packages\\grpc.net.client\\2.55.0\\grpc.net.client.2.55.0.nupkg.sha512",
+    "C:\\Users\\Andy.Hoang\\.nuget\\packages\\grpc.net.common\\2.55.0\\grpc.net.common.2.55.0.nupkg.sha512",
+    "C:\\Users\\Andy.Hoang\\.nuget\\packages\\grpc.tools\\2.56.0\\grpc.tools.2.56.0.nupkg.sha512",
     "C:\\Users\\Andy.Hoang\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Andy.Hoang\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Andy.Hoang\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.18\\microsoft.entityframeworkcore.6.0.18.nupkg.sha512",

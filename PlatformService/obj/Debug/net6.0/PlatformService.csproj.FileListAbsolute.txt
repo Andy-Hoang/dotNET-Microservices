@@ -1,5 +1,4 @@
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\appsettings.json
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\PlatformService.exe
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\PlatformService.deps.json
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\PlatformService.runtimeconfig.json
@@ -67,3 +66,10 @@ C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformSer
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\appsettings.Production.json
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+C:\Users\Andy.Hoang\Area9ReferenceCode\Tutorial\dotNET Microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.Common.dll
